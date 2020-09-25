@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class TaskManager {
     public static void main(String[] args) throws Exception {
-        Console();
+        TaskManager();
     }
 
     public static String[][] readFile() throws IOException {
@@ -36,7 +36,7 @@ public class TaskManager {
         return tab;
     }
 
-    public static void Console() throws Exception {
+    public static void TaskManager() throws Exception {
         String[][] tasks = readFile();
         Scanner scanner = new Scanner(System.in);
         System.out.println(ConsoleColors.YELLOW + "Wpisz komende");
