@@ -94,7 +94,7 @@ public class TaskManager {
                     System.out.println(ConsoleColors.RED + "Do zobaczenia");
                     System.exit(0);
                 default:
-                    System.out.println("Zla komenda");
+                    System.out.println(ConsoleColors.RED + "Zla komenda");
             }
         }
     }
