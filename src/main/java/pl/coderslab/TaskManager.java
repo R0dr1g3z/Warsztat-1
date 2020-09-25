@@ -14,8 +14,6 @@ import java.util.Scanner;
 public class TaskManager {
     public static void main(String[] args) throws Exception {
         Console();
-
-
     }
 
     public static String[][] readFile() throws IOException {
@@ -37,6 +35,7 @@ public class TaskManager {
         }
         return tab;
     }
+
     public static void Console() throws Exception {
         String[][] tasks = readFile();
         Scanner scanner = new Scanner(System.in);
